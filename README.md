@@ -1,5 +1,2 @@
 # OpenGL-Examples
 
-jjjjj
-
-Test
