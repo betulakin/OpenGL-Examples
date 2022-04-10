@@ -1,0 +1,3 @@
+C:/Users/AKIN/Desktop/Opengl/Trianglebuild/CMakeFiles/TriangleProject.dir
+C:/Users/AKIN/Desktop/Opengl/Trianglebuild/CMakeFiles/edit_cache.dir
+C:/Users/AKIN/Desktop/Opengl/Trianglebuild/CMakeFiles/rebuild_cache.dir

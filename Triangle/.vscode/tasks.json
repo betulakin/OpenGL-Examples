@@ -1,0 +1,47 @@
+{   // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake",
+            "type": "shell",
+            "command": "cmake",
+            "options": {
+                "cwd": "${workspaceFolder}/../Trianglebuild"
+            },
+            "args": [
+                "${workspaceFolder}",
+                "-G",
+                "MinGW Makefiles"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn":[
+                "Klasor"
+            ]        
+        },
+        {
+            "label": "Klasor",
+            "type": "shell",
+            "command":"mkdir",
+            "options": {
+                "cwd": "${workspaceFolder}/.."
+            },
+            "args": [
+                "Trianglebuild"
+            ]
+        },
+        {
+            "label": "Make",
+            "type": "shell",
+            "command":"make",
+            "options": {
+                "cwd": "${workspaceFolder}/../Trianglebuild"
+            },
+            "args": [    
+            ]
+        } 
+    ]
+}
